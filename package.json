@@ -1,0 +1,26 @@
+{
+  "name": "backend12.1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js",
+    "list": "forever list",
+    "stop": "forever stopall"
+  },
+  "author": "Natalya",
+  "license": "MIT",
+  "dependencies": {
+    "faker": "^5.5.3",
+    "forever": "^4.0.1",
+    "koa": "^2.13.3",
+    "koa-body": "^4.2.0",
+    "koa-router": "^10.1.1",
+    "koa-slow": "^2.1.0",
+    "koa2-cors": "^2.0.6"
+  },
+  "engines": {
+    "node": "11.x"
+  }
+}
